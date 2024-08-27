@@ -1,0 +1,77 @@
+/*-----------Header------------*/
+
+header{
+    /*reference for primary grid*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /*sub grid set up*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:1fr;
+    padding: 1em;
+    
+}
+
+#header img{
+    /*reference for sub grid section*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 13px;
+   
+
+ 
+}
+
+header input[type=text]{
+     /*reference for sub grid section*/
+     grid-column: 2/3;
+     grid-row: 1/2;
+     padding: 6px;
+     margin-top: 8px;
+     font-size: 17px;
+     border-color: #139B39;
+     width: 400px;
+     position: relative;
+     
+}
+
+header form{
+  float: right;
+  padding: 50px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+#search-icon {
+    position: absolute;
+    top: 98px;
+    height: 35px;
+    width: 45px;
+}
+
+#account{
+    grid-column: 3/4;
+    grid-row: 1/2;
+     
+
+}
+
+#account{
+    padding: 60px 70px;
+
+}
+
+
+
+#cart{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    
+}
+
+#cart{
+    padding: 60px 70px;
+
+}

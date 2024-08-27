@@ -1,0 +1,50 @@
+/*Sales*/
+#sales {
+    background-color: white;
+    max-width: 100%;
+    min-height: auto;
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    /*reference for primary grid*/
+    grid-row: 3/4;
+    /*sub grid setup*/
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: auto auto auto;
+    gap: 1em;
+}
+
+article#saleProducts h3, h4, button{
+    margin-top: 1em;
+}
+
+
+ #hottestDeals{
+     /*reference to sub grid section*/
+     grid-row: 1/2;
+
+
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+#saleProducts{
+    /*reference to sub grid section*/
+    grid-row: 2/3;
+    padding: 1em;
+}
+
+#saleProducts2{
+    /*reference to sub grid section*/
+   grid-row: 3/4;
+    padding: 1em;
+}
+
+
+
+
+
+.sale{
+    color: #CE171B;
+}
